@@ -37,7 +37,14 @@ android {
     buildFeatures {
         dataBinding = true
     }
+
+    // The correctErrorTypes below causes an error in compiling the generated CustomBindingComponent stub
+    // Comment it out to make the project build
+    kapt {
+        correctErrorTypes true
+    }
 }
+
 
 dependencies {
 
