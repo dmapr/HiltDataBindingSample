@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HiltDataBindingDemo</string>
+    <string name="device_info_format">Device: %1$s</string>
 </resources>
