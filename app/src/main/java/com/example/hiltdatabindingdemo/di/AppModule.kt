@@ -7,7 +7,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-@Module(subcomponents = [CustomBindingComponent::class])
+@Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
     @Provides
